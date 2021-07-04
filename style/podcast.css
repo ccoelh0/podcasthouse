@@ -1,0 +1,655 @@
+/* Colores */
+/* Azul: #181D27 */
+/* Crema: #E0D4CC */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181d27;
+  color: #e0d4cc;
+  font-family: "Benne", serif;
+}
+
+/*Gral*/
+
+.col-12 {
+  padding: 0;
+}
+
+.subrayado {
+  height: 2px;
+  width: 15%;
+  margin-bottom: 8px;
+  background-color: #e0d4cc;
+  margin: auto;
+}
+
+.body-titulos {
+  margin: 40px 0px;
+}
+
+.body-titulos h3 {
+  margin: 0px;
+  font-size: 40px;
+}
+
+/*Menu*/
+
+.menu {
+  background-color: #e0d4cc !important;
+}
+
+.menu-logo-celular {
+  display: block;
+  width: 50px;
+}
+
+.menu-logo {
+  width: 100px;
+  display: none;
+}
+
+/*Portada*/
+
+.portada {
+  /* background-image: url(../img/portadas/portadaellas2.jpeg); */
+  height: 60vh;
+  background-color: #e0d4cc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+
+/*titulo portada*/
+
+.titulos {
+  margin-top: 25px;
+  color: #181d27;
+}
+
+.titulos-titulo {
+  font-family: "Benne", serif;
+  font-size: 40px;
+}
+
+.titulos-span {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  /* border-bottom: 1px solid #181d27; */
+}
+
+.titulos-subtitulo {
+  font-size: 15px;
+  margin: 0px 20px;
+}
+
+/*Imagenes*/
+
+.imagenes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  margin-top: -350px;
+}
+
+.imagenes-grabacion {
+  width: 245px;
+  height: 383px;
+  margin: 0px 20px;
+  border: 1px solid #fff;
+}
+
+.imagenes-grabacion-1 {
+  margin-top: 170px;
+}
+
+.imagenes-grabacion-2 {
+  display: none;
+}
+
+.imagenes-grabacion-3 {
+  display: none;
+}
+
+/* podcast */
+
+.podcast {
+  background-color: #e0d4cc;
+}
+
+.podcast-img {
+  height: 280px;
+  width: 280px;
+}
+
+/* .podcast-info {
+  text-align: justify;
+  padding: 40px 20px 10px 20px;
+} */
+
+.podcast-info1 {
+  text-align: justify;
+  padding: 40px 20px 10px 20px;
+}
+
+.podcast-info2 {
+  text-align: justify;
+  padding: 40px 20px 10px 20px;
+}
+
+/* .podcast-flex-gral {
+  display: flex;
+  flex-direction: column;
+} */
+
+.podcast-flex-gral1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.podcast-flex-gral2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* integrantes */
+
+.integrantes img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.integrantes-arreglos h4 {
+  margin: 20px 0px 10px 0px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.integrantes-arreglos p {
+  margin: 0 60px;
+  margin: 10px 0px 20px 0px;
+  text-align: justify;
+  margin: 0px 30px 30px 30px;
+}
+
+/*Contacto*/
+
+.margen-contacto {
+  margin: 0px 0px 60px 0px;
+}
+
+.contacto-titulos {
+  margin: 30px 0px;
+}
+
+.contacto-titulos-titulo {
+  margin: 0px;
+  font-size: 40px;
+}
+
+.form div {
+  padding: 15px 0px 0px 0px;
+}
+
+.contacto {
+  width: 90%;
+  height: 30px;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+}
+
+.contacto-boton {
+  background-color: #e0d4cc;
+  border: 1px solid #fff;
+  width: 25%;
+  height: 35px;
+  display: inline-block;
+  cursor: pointer;
+  color: #000;
+  font-size: 15px;
+}
+
+/* footer */
+
+.footer-color {
+  background-color: #e0d4cc;
+  color: #000000;
+  /* padding: 0px !important; */
+}
+
+.footer-fuente {
+  padding: 20px 0px;
+}
+
+.footer-arreglos {
+  margin: 20px 0px 10px 0px;
+}
+
+.redes-img {
+  width: 30px;
+  margin: 0px 5px;
+}
+
+.redes-logo {
+  width: 65px;
+}
+
+.redes-p {
+  margin: 0px;
+  text-shadow: 5px 5px 10px #090c02;
+}
+
+.redes-p a {
+  color: #000000;
+}
+
+/*****Fin celular****/
+
+@media only screen and (min-width: 768px) {
+  /*gral*/
+
+  .body-titulos h3 {
+    margin: 0px;
+    font-size: 60px;
+  }
+
+  .subrayado {
+    height: 2px;
+    width: 10%;
+  }
+
+  /*nav*/
+
+  .nav-link {
+    font-size: 25px;
+  }
+
+  /*Portada*/
+
+  .portada {
+    height: 45vh;
+  }
+
+  /*portada titulos*/
+
+  .titulos-titulo {
+    font-size: 60px;
+  }
+
+  .titulos-span {
+    font-size: 60px;
+    font-weight: bolder;
+  }
+
+  .titulos-subtitulo {
+    font-size: 25px;
+    margin: 0px 20px;
+  }
+
+  .imagenes {
+    flex-direction: row;
+    margin-top: -300px;
+  }
+
+  .imagenes-grabacion {
+    width: 267px;
+    height: 334px;
+    margin: 0px 20px;
+  }
+
+  .imagenes-grabacion-1 {
+    margin-top: 170px;
+  }
+
+  .imagenes-grabacion-2 {
+    display: block;
+  }
+
+  .imagenes-grabacion-3 {
+    margin-top: 100px;
+    display: block;
+  }
+
+  /* podcast */
+
+  .podcast {
+    background-color: #e0d4cc;
+  }
+
+  .podcast-img {
+    height: 280px;
+    width: 280px;
+    margin: 20px 0px;
+  }
+  /* 
+  .podcast-info {
+    text-align: justify;
+    padding: 50px 40px 10px 0px;
+  } */
+
+  .podcast-info1 {
+    text-align: justify;
+    padding: 50px 40px 10px 0px;
+  }
+
+  .podcast-info2 {
+    text-align: justify;
+    padding: 50px 40px 10px 0px;
+  }
+
+  /* .podcast-flex-gral {
+    display: flex;
+    flex-direction: row;
+  } */
+
+  .podcast-flex-gral1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .podcast-flex-gral2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .podcast-info-titulo {
+    font-size: 30px;
+  }
+
+  .podcast-info-p {
+  }
+
+  /* integrantes */
+
+  .integrantes img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .integrantes-arreglos h4 {
+    margin: 20px 0px 10px 0px;
+    font-size: 25px;
+  }
+
+  .integrantes-arreglos p {
+    margin: 0 60px;
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+    margin: 0px 30px 30px 30px;
+  }
+
+  /*Contacto*/
+
+  .margen-contacto {
+    margin: 0px 0px 60px 0px;
+  }
+
+  .contacto-titulos {
+    margin: 30px 0px;
+  }
+
+  .contacto-titulos-titulo {
+    margin: 0px;
+    font-size: 60px;
+  }
+
+  .form div {
+    padding: 15px 0px 0px 0px;
+  }
+
+  .contacto {
+    width: 90%;
+    height: 40px;
+  }
+
+  textarea {
+    width: 90%;
+    height: 100px;
+  }
+
+  .contacto-boton {
+    font-size: 20px;
+  }
+
+  /* footer */
+
+  .footer-color {
+    background-color: #e0d4cc;
+    color: #000000;
+    /* padding: 0px !important; */
+  }
+
+  .footer-fuente {
+    padding: 20px 0px;
+  }
+
+  .footer-arreglos {
+    margin: 20px 0px 10px 0px;
+  }
+
+  .redes-img {
+    width: 40px;
+    margin: 0px 5px;
+  }
+
+  .redes-logo {
+    width: 65px;
+  }
+
+  .redes-p {
+    margin: 0px;
+    text-shadow: 5px 5px 10px #090c02;
+  }
+
+  .redes-p a {
+    color: #000000;
+  }
+}
+
+/*Fin tabler*/
+
+@media only screen and (min-width: 1024px) {
+  /*gral*/
+
+  .menu-logo-celular {
+    display: none;
+    width: 50px;
+  }
+
+  .menu-logo {
+    width: 90px;
+    display: block;
+  }
+
+  .nav-link {
+    margin: 0px 15px;
+    padding: 5px 0px;
+    font-size: 20px;
+    padding-bottom: 1px;
+    color: white;
+    position: relative;
+  }
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transform: translateY(3px);
+    background: #181d27;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+
+  .nav-link:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /*Portada*/
+
+  .portada {
+    height: 60vh;
+  }
+
+  /*imagenes*/
+
+  .imagenes {
+    flex-direction: row;
+    margin-top: -300px;
+  }
+
+  .imagenes-grabacion {
+    width: 267px;
+    height: 434px;
+    margin: 0px 20px;
+  }
+
+  .imagenes-grabacion-1 {
+    margin-top: 170px;
+  }
+
+  .imagenes-grabacion-2 {
+  }
+
+  .imagenes-grabacion-3 {
+    margin-top: 100px;
+  }
+
+  /* podcast */
+
+  .podcast {
+    background-color: #e0d4cc;
+  }
+
+  .podcast-info1 {
+    text-align: justify;
+    padding: 50px 20px 10px 20px;
+  }
+
+  .podcast-info2 {
+    text-align: justify;
+    padding: 50px 20px 10px 20px;
+  }
+
+  .podcast-titulo {
+    margin: 40px 0px;
+  }
+
+  .podcast-titulo h3 {
+    margin: 0px;
+    font-size: 35px;
+  }
+
+  .podcast-flex-gral1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .podcast-flex-gral2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .podcast-img {
+    height: 300px;
+    width: 300px;
+    filter: grayscale(100%);
+    transition: 0.2s;
+  }
+
+  .podcast-img:hover {
+    filter: grayscale(0%);
+  }
+
+  /* integrantes */
+
+  .integrantes img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .integrantes-arreglos h4 {
+    margin: 20px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .integrantes-arreglos p {
+    margin: 0 60px;
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+    margin: 0px 30px 30px 30px;
+    font-size: 20px;
+  }
+
+  /*Contacto*/
+
+  .margen-contacto {
+    margin: 0px 0px 60px 0px;
+  }
+
+  .contacto-titulos {
+    margin: 30px 0px;
+  }
+
+  .contacto-titulos-titulo {
+    margin: 0px;
+    font-size: 60px;
+  }
+
+  .form div {
+    padding: 15px 0px 0px 0px;
+  }
+
+  .contacto {
+    width: 70%;
+    height: 40px;
+  }
+
+  textarea {
+    width: 70%;
+    height: 100px;
+  }
+
+  .contacto-boton {
+    font-size: 20px;
+    transition: 0.2s;
+  }
+
+  .contacto-boton:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  /*footer*/
+
+  .redes-p {
+    margin: 0px;
+    text-shadow: 5px 5px 10px #090c02;
+    font-size: 20px;
+  }
+
+  .hover {
+    filter: grayscale(100%);
+    transition: 0.2s;
+  }
+
+  .hover:hover {
+    filter: grayscale(0%);
+  }
+}
